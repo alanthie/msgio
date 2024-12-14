@@ -1,2 +1,0 @@
-# msgio
-libevent msg layer
