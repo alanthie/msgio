@@ -1,11 +1,5 @@
 # msgio
 libevent thin c++ messaging layer
-
-Moving CryptoChat toward a libevent messaging layer, to handle thousand of connections.
-
-msgio is a logical model sample of the messaging layer required
-# msgio
-libevent thin c++ messaging layer
 <pre>
 Moving CryptoChat toward a libevent messaging layer, to handle thousand of connections.
 msgio is an example of the messaging layer required
