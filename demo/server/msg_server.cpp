@@ -10,7 +10,7 @@ int main(int /*argc*/, char** /*argv*/)
     server.set_msg_callback([](proto::msgserver& server, proto::msgconnection& conn, const void* buffer, size_t num)
     {
         // Dump message
-        std::cout << "Message received: " << std::string(reinterpret_cast<const char*>(buffer), num) << std::endl;
+        //::cout << "Message received: " << std::string(reinterpret_cast<const char*>(buffer), num) << std::endl;
 
         // Send echo
         server.send_msg(conn, buffer, num);
